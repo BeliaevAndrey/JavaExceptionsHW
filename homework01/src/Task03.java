@@ -28,7 +28,6 @@ public class Task03 {
     }
 
     double[] divider(int[] arr1, int[] arr2) {
-        Logger log = Logger.getLogger(this.getClass().getSimpleName());
 
         if (arr1.length != arr2.length) {
             throw new RuntimeException("The arrays are of different length");
