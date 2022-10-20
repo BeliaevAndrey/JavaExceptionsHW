@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task01 {
+public class HW01Task01 {
 
     void obtainStackOverflow() {
         /* Exception in thread "main" java.lang.StackOverflowError
          */
-        Task01 inner = new Task01();
+        HW01Task01 inner = new HW01Task01();
         inner.obtainStackOverflow();
     }
 
@@ -64,7 +64,7 @@ public class Task01 {
 }
 
     public static void main(String[] args) {
-        Task01 app = new Task01();
+        HW01Task01 app = new HW01Task01();
 
 //        app.obtainStackOverflow();    // 1
 

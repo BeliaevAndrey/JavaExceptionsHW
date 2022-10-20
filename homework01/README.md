@@ -12,6 +12,6 @@
 ___
 ### _Решение_
 
-* /src/Task01.java -- Задача 1 
-* /src/Task02.java -- Задача 2
-* /src/Task03.java -- Задача 3
+* /src/HW01Task01.java -- Задача 1 
+* /src/HW01Task02.java -- Задача 2
+* /src/HW01Task03.java -- Задача 3

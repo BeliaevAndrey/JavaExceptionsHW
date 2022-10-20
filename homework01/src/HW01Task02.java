@@ -1,8 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.logging.Logger;
 
-public class Task02 {
+public class HW01Task02 {
 
     int[] difference(int[] arr1, int[] arr2) {
         Logger log = Logger.getLogger(this.getClass().getSimpleName());
@@ -19,7 +18,7 @@ public class Task02 {
     }
 
     public static void main(String[] args) {
-        Task02 app = new Task02();
+        HW01Task02 app = new HW01Task02();
 
         int[] testArr1 = new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1};
         int[] testArr2 = Arrays.copyOf(testArr1, testArr1.length);

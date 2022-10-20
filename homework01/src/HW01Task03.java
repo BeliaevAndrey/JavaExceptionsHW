@@ -1,10 +1,9 @@
 import java.util.Arrays;
-import java.util.logging.Logger;
 
-public class Task03 {
+public class HW01Task03 {
 
     public static void main(String[] args) {
-        Task03 app = new Task03();
+        HW01Task03 app = new HW01Task03();
 
         int[] testArr1 = new int[]{90, 80, 70, 60, 50, 40, 30, 20, 10};
         int[] testArr2 = Arrays.copyOf(testArr1, testArr1.length);
