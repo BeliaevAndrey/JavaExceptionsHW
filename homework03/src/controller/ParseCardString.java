@@ -113,7 +113,7 @@ public class ParseCardString {
         String tmp0 = fullName[0];
         String tmp1 = fullName[1];
         String tmp2 = fullName[2];
-        fullName[1] = tmp0;     // shifting buy 1 position
+        fullName[1] = tmp0;     // shifting by 1 position
         fullName[2] = tmp1;
         fullName[0] = tmp2;
     }
